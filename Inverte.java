@@ -2,7 +2,9 @@
 public class Inverte {
     
      public static void main (String [] args) {
-         System.out.println(123);
+ 
+        System.out.print( Inverte.invert (n) + 
+                "    ");
  }
           public static int invert (int n, int total){
              if (n == 0 ) 
